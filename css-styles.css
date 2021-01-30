@@ -1,0 +1,145 @@
+/*# sourceMappingURL=styles.scss.map */
+body {
+  background-color: #fbfaf9;
+}
+
+.intro, .main {
+  margin-right: 40%;
+}
+
+.design-selection {
+  width: 28%;
+  height: 100px;
+  float: right;
+  margin-top: -180em;
+  background-image: url("images/ruler-project.png");
+  background-repeat: no-repeat;
+  padding: 3%;
+  overflow: hidden;
+  transition: height 5s;
+  font-size: 12px;
+}
+
+.design-selection:hover {
+  height: 700px;
+}
+
+.design-selection li {
+  margin: 20px 0px 20px 8px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 0px 0px 10px -30px;
+}
+
+.sidebar {
+  margin-top: -15em;
+}
+
+.design-archives {
+  margin-top: -16em;
+}
+
+footer {
+  margin-top: 20em;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    text-align: center;
+  }
+
+  .summary {
+    text-align: center;
+  }
+
+  .intro, .main {
+    margin-right: 0%;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 20% 20% 60%;
+  }
+
+  header {
+    grid-column: 2/5;
+    grid-row: 1;
+  }
+
+  .summary {
+    grid-column: 2/5;
+    grid-row: 2;
+  }
+
+  .preamble {
+    grid-column: 1/4;
+    grid-row: 3;
+    margin-top: 8%;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+  }
+
+  .explanation {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+
+  .participation {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+
+  .benefits {
+    grid-column: 1/4;
+    grid-row: 3;
+  }
+
+  .requirements {
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+
+  footer {
+    grid-column: 1/5;
+    grid-row: 5;
+    margin-top: 40em;
+  }
+
+  aside .sidebar {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(3, 60%);
+  }
+
+  .design-selection {
+    grid-column: 5;
+    grid-row: 3;
+    margin-top: -168em;
+  }
+
+  .design-archives {
+    grid-column: 3;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .design-selection {
+    margin-top: -150em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .design-selection {
+    margin-top: -120em;
+  }
+}
+
+/*# sourceMappingURL=css-styles.css.map */
