@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C69C6D;filter:url(#AI_Alpha_1);}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="100%" id="AI_Alpha_1" width="100%" x="0%" y="0%">
+	<feTurbulence  baseFrequency="0.05" numOctaves="2" result="turb" stitchTiles="noStitch" type="turbulence"></feTurbulence>
+	<feComposite  in="SourceGraphic" in2="turb" operator="in"></feComposite>
+</filter>
+<path class="st0" d="M757,979l31-692l-14.9,6l-36.81,2.31l-36-16L677,258l-18-46l-10.53-42.13L634,96l-1-33L480.33,94.26L489,130
+	l9,33c0,0,5.49,26.63,6,35c0.65,10.7,2,44,2,44l-4.37,32.52l-16.48,34.38L461,340l-24,17l-30,13h-21l13,73l14,66l6.02,56.18l-2,50
+	L403,659l-21.73,54.91l-20,71.58L349,841l-13,62l-4,23v24l174,24l130.18,5H757z"/>
+<path class="st1" d="M1555.5,96.5"/>
+</svg>
